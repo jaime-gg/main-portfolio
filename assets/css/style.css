@@ -336,10 +336,10 @@ h2 {
   padding-bottom: 130px;
 }
 .contact .info {
-  padding: 30px;
+  padding: 20px;
   background: var(--white);
   width: 100%;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.15);
 }
 .contact .info i {
   font-size: 20px;
