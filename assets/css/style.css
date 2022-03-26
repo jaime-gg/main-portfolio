@@ -319,13 +319,13 @@ h2 {
   background: var(--primary);
 }
 .portfolio .portfolio-wrap .portfolio-links a + a {
-  border-left: 2px solid var(--secondary);
+  margin: 0 0 0 2px;
 }
 .portfolio .portfolio-wrap:hover::before {
   opacity: 1;
 }
 .portfolio .portfolio-wrap:hover .portfolio-links {
-  opacity: 1;
+  opacity: .8;
   bottom: 0;
 }
 
