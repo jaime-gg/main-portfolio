@@ -223,14 +223,21 @@ section {
 h2 {
   font-size: 32px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   padding-bottom: 20px;
   position: relative;
   color: var(--mid-grey);
 }
 
-.section-title p {
-  margin-bottom: 0;
+h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: var(--secondary);
+  bottom: 10px;
+  left: 0;
 }
 
 /* ABOUT ----------------------------------------------------------------------------------------------------------------------------*/
